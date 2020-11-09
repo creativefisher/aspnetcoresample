@@ -3,5 +3,5 @@ spec:
  services:
  - name: web
    git:
-     branch: main
+     branch: master
      repo_clone_url: https://github.com/creativefisher/aspnetcoresample.git
