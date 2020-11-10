@@ -3,6 +3,7 @@ spec:
  services:
  - name: web
    dockerfile_path: Dockerfile
+   http_port: 80
    git:
      branch: master
      repo_clone_url: https://github.com/creativefisher/aspnetcoresample.git
