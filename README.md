@@ -2,7 +2,7 @@
 
 [![Deploy to DigitalOcean](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/creativefisher/aspnetcoresample/tree/master&refcode=b17a452d9947)
 
-This sample demonstrates how to run a Dockerized ASP.NET Core application on DigitalOcean App Platform.  Since App Platform doesn't yet support dotnet core, this sample shows how to accomplish this using Dockerfile.
+This sample demonstrates how to run a containerized ASP.NET Core application on DigitalOcean App Platform.  Since App Platform doesn't yet support dotnet core, this sample shows how to accomplish this using Dockerfile.
 
 This sample has been adapted from official dotnet docker sample - https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp
 
