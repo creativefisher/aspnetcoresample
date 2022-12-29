@@ -14,7 +14,7 @@ These steps will get this sample application running for you using DigitalOcean.
 
 ## Requirements
 
-* You need a DigitalOcean account. If you don't already have one, you can sign up using the link below and receive a $100, 60-day credit to get started.
+* You need a DigitalOcean account. If you don't already have one, you can sign up using the link below and receive a $200, 60-day credit to get started.
 
 [![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=928215b6ed22&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
