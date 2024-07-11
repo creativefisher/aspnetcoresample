@@ -6,6 +6,8 @@ This sample demonstrates how to run a containerized ASP.NET Core application on 
 
 This sample has been adapted from official dotnet docker sample - https://github.com/dotnet/dotnet-docker/tree/master/samples/aspnetapp
 
+[Understand this Repo by chatting with it](https://sourcegraph.com/github.com/creativefisher/aspnetcoresample)
+
 # Getting Started #
 
 These steps will get this sample application running for you using DigitalOcean.
