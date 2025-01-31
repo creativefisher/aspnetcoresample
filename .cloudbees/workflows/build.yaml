@@ -1,0 +1,24 @@
+apiVersion: automation.cloudbees.io/v1alpha1
+kind: workflow
+name: build
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  csharp-build:
+    steps:
+      - name: checkout
+        uses: cloudbees-io/checkout@v1
+      - name: build aspnetapp.sln
+        uses: docker://mcr.microsoft.com/dotnet/sdk:8.0
+        run: dotnet build /cloudbees/workspace/aspnetapp.sln
+      - name: Test aspnetapp.sln
+        uses: docker://mcr.microsoft.com/dotnet/sdk:8.0
+        run: dotnet test /cloudbees/workspace/aspnetapp.sln
+      - name: Scan
+        uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v2
+        with:
+          language: LANGUAGE_DOTNET
